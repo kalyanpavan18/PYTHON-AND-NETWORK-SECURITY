@@ -7,9 +7,9 @@ def main():
 
     hash = hashlib.md5( textUtf8 )
     hexa = hash.hexdigest()
-
+// print statement
     print ( hexa )
-
+   	
     return
 
 main()
